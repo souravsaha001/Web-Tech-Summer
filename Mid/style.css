@@ -1,0 +1,24 @@
+body { 
+    font-family: Arial,sans-serif;
+    background-color:aliceblue;
+
+margin:0;
+padding:0}
+form{
+    background-color:white;
+    max-width:1000px;
+    margin:30 px auto;
+    padding:30px 70 px;
+    border-radious: 8px;
+}
+table { background color:white;
+margin:auto;
+padding:150px;
+}
+input[type="register"]
+{
+    cursor:pointer;
+    padding:20px
+    position:relative;
+    left:200px;
+}

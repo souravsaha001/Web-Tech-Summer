@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <title> Clinic Patient Registration </title>
+    <link rel="stylesheet" href="style.css">
+ </head>  
+ <body>
+    <center>
+        <h1> Clinic Patient Registration</h1>
+    </center>
+    <form id="clinic patient register">
+    <table>
+        <tr>
+            <td>Full Name:</td>
+            <td> <input type="text" id="fullname" name="fullname"></td>   
+        </tr>
+        <tr>
+            <td>Age:</td>
+            <td> <input type="number" id="age" name="age"></td>
+        </tr>
+        <tr>
+            <td>Phone Number</td>
+            <td> <input type="number" id="phone" name="phone"></td>
+        </tr>
+        <tr>
+            <td>Email Address</td>
+            <td><input type="email" id="email" name="email"></td>
+        </tr>
+        <tr>
+            <td>Insurance Provider</td>
+            <td><select name="Insurance Provider">
+            <option value="">Select Provider</option>
+            <option value="a">A</option>
+            <option value="b">B</option>
+            <option value="c">C</option>
+            </select>
+            </tr>
+            <tr>
+                <td>Insurance Policy Number:</td>
+                <td><input type="number"></td>
+            </tr>
+            
+                <tr>
+                    <td>
+                        <center><h2>Additional Information</h2></center>
+                    </td>
+                    </tr>
+            
+                <tr>
+                    <td>Username:</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Password:</td>
+                    <td> <input type="password" id="password"></td>
+                </tr>
+                <tr>
+                    <td>Confirm Password:</td>
+                    <td><input type="password" id="confirmpassword"></td>
+                </tr>
+    </table>
+    <div class="buttons">
+                <button type="submit">Resgister</button>
+             </div>
+</form>
+<script src="validation.js"></script>
+ </body> 
+</html>
